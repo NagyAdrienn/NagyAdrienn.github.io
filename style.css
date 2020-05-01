@@ -23,6 +23,10 @@ p:hover {
   color: white;
 }
 
+span.onmouseoverChangeColor {
+  
+}
+
 a:hover {
 	background-color: #ff0072;
 	color: white;
