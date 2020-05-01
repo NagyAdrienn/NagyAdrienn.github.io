@@ -16,7 +16,7 @@ p, a {
 p:hover {
   height: 28px;
   /* background-color: #ff0072; */
-  color: white;
+  /* color: white; */
 }
 
 .number {
@@ -24,7 +24,7 @@ p:hover {
 }
 
 span.onmouseoverChangeColor {
-  
+
 }
 
 a:hover {
