@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Complicated Form</title>
+    <link rel="stylesheet" type="text/css" href="AComplicatedForm.css">
+    <script async src="AComplicatedForm.js"></script>
+</head>
+<body>
+    <form action="">
+
+        <fieldset class="boxMINT">
+      
+          <legend>Interesting Application Form</legend>
+      
+          <div class="boxQUESTION1">
+            <p class="question">What is your name?</p>
+            <input class="nameQUESTION1" type="text">
+          </div>
+      
+          <div class="boxQUESTION2">
+            <p class="question">What is your favourite colour?</p>
+            <div class="CENTERbutton">
+              <div class="checkbox-toolbar">
+                <input type="checkbox" name="answer" id="Red">
+                <label id="Red" for="Red">Red</label>
+      
+                <input type="checkbox" name="answer" id="Green" checked>
+                <label id="Green" for="Green">Green</label>
+      
+                <input type="checkbox" name="answer" id="Blue" checked>
+                <label id="Blue" for="Blue">Blue</label>
+      
+                <div class ="answerOther">
+                  <input type="checkbox" id="other" name="interest" value="other">
+                  <label for="other">Other...</label>
+                  <input type="text" id="otherValue" name="other">
+                </div>
+      
+              </div>
+            </div>
+          </div>
+      
+          <div class="boxQUESTION3">
+            <p class="question">Would you like to become a developer?</p>
+            <div class="CENTERbutton">
+              <div class="radio-toolbar">
+                <input type="radio" name="answer" id="Yes">
+                <label id="Yes" for="Yes">Yes</label>
+      
+                <input type="radio" name="answer" id="Ano">
+                <label id="Ano" for="Ano">Ano</label>
+      
+                <input type="radio" name="answer" id="Igen" checked>
+                <label id="Igen" for="Igen">Igen</label>
+      
+                <input type="radio" name="answer" id="kínai">
+                <label id="kínai" for="kínai">是的</label>
+              </div>
+            </div>
+          </div>
+      
+          <div class="boxQUESTION4">
+            <p class="question">Why would you like to become a developer?
+            </p>
+      
+            <div class="justified">
+              <textarea name="" id="" cols="55" rows="8"></textarea>
+            </div>
+      
+          </div>
+      
+          <div class="CENTERbutton">
+            <button>Submit</button>
+          </div>
+      
+        </fieldset>
+      
+      </form>
+</body>
+</html>

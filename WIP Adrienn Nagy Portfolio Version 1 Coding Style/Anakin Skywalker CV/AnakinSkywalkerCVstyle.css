@@ -1,0 +1,93 @@
+/* header */
+img {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-family: 'Abril Fatface', cursive;
+  color: #222;
+}
+
+div.header-hello {
+  position: absolute;
+}
+
+div.header-hi {
+  font-size: 32px;
+}
+
+div.header-name {
+  font-size: 63px;
+  margin-bottom: 4%;
+}
+/* END header */
+
+div.main-margin {
+  margin: 4% 6% 4% 6%;
+}
+
+div.introduction, ul.introduction {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+h2, h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.8;
+}
+
+div.paragraphs, ul {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+div.subtitle {
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  font-style: italic;
+}
+
+/* quotes */
+blockquote::before, blockquote {
+  font-family: 'Abril Fatface', cursive;
+  color: white;
+}
+
+blockquote::before {
+  content: '“';
+  font-size: 100px;
+}
+
+blockquote {
+  width: 100%;
+  height: 200px;
+  font-size: 40px;
+  background: #323232;
+  position: ;
+  margin: 40px 20px 40px 20px;
+}
+
+div.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+/* END quotes */
+
+/* line */
+hr.solid {
+  border-top: 4px solid;
+}
+/* END line */

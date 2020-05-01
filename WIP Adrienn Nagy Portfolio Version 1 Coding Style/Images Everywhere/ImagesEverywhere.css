@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+img {
+  margin: 20px;
+  display: block;
+  width: 389px;
+}
+
+img:hover {
+  margin: 0;
+  width: 622px;
+}

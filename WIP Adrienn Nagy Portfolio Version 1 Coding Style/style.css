@@ -1,0 +1,30 @@
+body {
+	padding: 40px;
+	background-color: #00fac2;  
+}
+
+p, a {
+  height: 28px;
+  padding: 4px 8px 0px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 18px;
+  color: black;
+}
+
+p:hover {
+  height: 28px;
+  background-color: #ff0072;
+  color: white;
+}
+
+.number {
+  color: white;
+}
+
+a:hover {
+	background-color: #ff0072;
+	color: white;
+  text-decoration: none;
+}
