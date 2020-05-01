@@ -3,6 +3,10 @@ body {
 	background-color: #00f4c3;
 }
 
+div {
+  display: flex;
+}
+
 p, a {
   height: 28px;
   padding: 4px 8px 0px 8px;
