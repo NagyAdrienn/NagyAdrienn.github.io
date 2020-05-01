@@ -7,10 +7,32 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Mono&display=swap" rel="stylesheet">
     <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <script>
+        function bgChange(bg) {
+          document.body.style.background = bg;
+        }
+        </script>
     <title>Adrienn Nagy</title>
 </head>
 
 <body>
+    <table style="width:300px;height:100px">
+        <tr>
+          <td onmouseover="bgChange(this.style.backgroundColor)" 
+          onmouseout="bgChange('transparent')"
+          style="background-color:#0056f4">
+          </td>
+          <td onmouseover="bgChange(this.style.backgroundColor)" 
+          onmouseout="bgChange('transparent')"
+          style="background-color:#c0ff00">
+          </td>
+          <td onmouseover="bgChange(this.style.backgroundColor)" 
+          onmouseout="bgChange('transparent')"
+          style="background-color:#ff0072">
+          </td>
+        </tr>
+      </table>
+
     <div>
         <p>
             <span class="number">0 </span>
