@@ -20,7 +20,7 @@ a.blueBOX:link, a.blueBOX:visited {
   z-index: +1;
   padding: 30px 20px 30px 20px;
   text-align: center;
-  background-color: #375eff;
+  background-color: #4b6eff;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   color: white;
@@ -28,7 +28,7 @@ a.blueBOX:link, a.blueBOX:visited {
 }
 
 a.blueBOX:hover, a.blueBOX:active {
-  background-color: #375eff;
+  background-color: #4b6eff;
 }
 /* END blueBOX */
 

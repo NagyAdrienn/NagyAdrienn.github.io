@@ -1,6 +1,6 @@
 body {
 	padding: 5px 20px 15px 20px;
-  background-color: #375eff;
+  background-color: #4b6eff;
 }
 
 div {
@@ -20,7 +20,7 @@ a.blueBOX:link, a.blueBOX:visited {
   z-index: +1;
   padding: 30px 20px 30px 20px;
   text-align: center;
-  background-color: #375eff;
+  background-color: #4b6eff;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   color: white;
@@ -28,7 +28,7 @@ a.blueBOX:link, a.blueBOX:visited {
 }
 
 a.blueBOX:hover, a.blueBOX:active {
-  background-color: #375eff;
+  background-color: #4b6eff;
 }
 /* END blueBOX */
 
@@ -78,20 +78,20 @@ a.orgonaBOX:hover, a.orgonaBOX:active {
 }
 /* END orgonaBOX */
 
-/* mint link */
-p, a.mint:link, a.mint:visited {
+/* orgona link */
+p, a.orgona:link, a.orgona:visited {
   height: 10px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   color: black;
 }
 
-a.mint:hover, a.mint:active {
-	background-color: #00ffcc;
-	color: black;
+a.orgona:hover, a.orgona:active {
+	background-color: #9789ff;
+	color: white;
   text-decoration: none;
 }
-/* END mint link */
+/* END orgona link */
 
 /* 
 p:hover {
