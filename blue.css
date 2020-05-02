@@ -1,6 +1,6 @@
 body {
 	padding: 5px 20px 15px 20px;
-  background-color: #00ffcc;
+  background-color: #375eff;
 }
 
 div {
@@ -78,20 +78,20 @@ a.orgonaBOX:hover, a.orgonaBOX:active {
 }
 /* END orgonaBOX */
 
-/* orgona link */
-p, a.orgona:link, a.orgona:visited {
+/* mint link */
+p, a.mint:link, a.mint:visited {
   height: 10px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   color: black;
 }
 
-a.orgona:hover, a.orgona:active {
-	background-color: #9789ff;
-	color: white;
+a.mint:hover, a.mint:active {
+	background-color: #00ffcc;
+	color: black;
   text-decoration: none;
 }
-/* END orgona link */
+/* END mint link */
 
 /* 
 p:hover {
