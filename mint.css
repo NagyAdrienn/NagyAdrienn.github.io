@@ -1,6 +1,6 @@
 body {
 	padding: 5px 20px 15px 20px;
-  background-color: #9789ff;
+  background-color: #00ffcc;
 }
 
 div {
@@ -85,20 +85,20 @@ p {
   color: black;
 }
 
-/* mint link */
-a.mint:link, a.mint:visited {
+/* orgona link */
+a.orgona:link, a.orgona:visited {
   height: 10px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
-  color: white;
+  color: #4b6eff;
 }
 
-a.mint:hover, a.mint:active {
-	background-color: #00ffcc;
-	color: black;
+a.orgona:hover, a.orgona:active {
+	background-color: #4b6eff;
+	color: white;
   text-decoration: none;
 }
-/* END mint link */
+/* END orgona link */
 
 /* 
 p:hover {
