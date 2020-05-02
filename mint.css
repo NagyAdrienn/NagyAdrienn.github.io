@@ -86,14 +86,14 @@ p {
 }
 
 /* orgona link */
-a.orgona:link, a.orgona:visited {
+a.blue:link, a.blue:visited {
   height: 10px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   color: #4b6eff;
 }
 
-a.orgona:hover, a.orgona:active {
+a.blue:hover, a.blue:active {
 	background-color: #4b6eff;
 	color: white;
   text-decoration: none;
