@@ -78,16 +78,23 @@ a.orgonaBOX:hover, a.orgonaBOX:active {
 }
 /* END orgonaBOX */
 
-/* orgona link */
-p, a.orgona:link, a.orgona:visited {
+p {
   height: 10px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   color: black;
 }
 
+/* orgona link */
+a.orgona:link, a.orgona:visited {
+  height: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: #4b6eff;
+}
+
 a.orgona:hover, a.orgona:active {
-	background-color: #9789ff;
+	background-color: #4b6eff;
 	color: white;
   text-decoration: none;
 }

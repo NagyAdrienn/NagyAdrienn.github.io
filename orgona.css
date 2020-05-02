@@ -78,12 +78,19 @@ a.orgonaBOX:hover, a.orgonaBOX:active {
 }
 /* END orgonaBOX */
 
-/* mint link */
-p, a.mint:link, a.mint:visited {
+p {
   height: 10px;
   font-family: 'Roboto Mono', monospace;
   font-size: 14px;
   color: black;
+}
+
+/* mint link */
+a.mint:link, a.mint:visited {
+  height: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: white;
 }
 
 a.mint:hover, a.mint:active {
