@@ -1,7 +1,13 @@
 body {
-	padding: 40px;
+	padding: 5px 20px 15px 20px;
   background-color: #00ffcc;
-  
+}
+
+table.PickYourColour {
+  position: fixed;
+  right: 28px;
+  top: 28px;
+  z-index: +1;
 }
 
 div {
@@ -11,33 +17,25 @@ div {
 }
 
 p, a {
-  height: 28px;
-  padding: 4px 8px 0px 8px;
+  height: 10px;
   font-family: 'Roboto Mono', monospace;
-  font-size: 18px;
+  font-size: 14px;
   color: black;
 }
 
+/* 
 p:hover {
-  height: 28px;
-  /* background-color: #ff0072; */
-  /* color: white; */
-}
+  height: 14px;
+  background-color: #ff0072;
+  color: white;
+} */
 
 .number {
   color: white;
 }
 
-.moremargin {
-  margin: 0px 0px 160px 0px;
-}
-
-span {
-  
-}
-
 a:hover {
-	background-color: #A89CFE;
+	background-color: #9789ff;
 	color: white;
   text-decoration: none;
 }
