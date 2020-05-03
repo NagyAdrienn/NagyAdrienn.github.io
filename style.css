@@ -1,6 +1,6 @@
 body {
-	padding: 5px 20px 15px 20px;
   background-color: #9789ff;
+  margin: 0;
 }
 
 div {
@@ -78,13 +78,6 @@ a.orgonaBOX:hover, a.orgonaBOX:active {
 }
 /* END orgonaBOX */
 
-p {
-  height: 10px;
-  font-family: 'Roboto Mono', monospace;
-  font-size: 14px;
-  color: black;
-}
-
 /* mint link */
 a.mint:link, a.mint:visited {
   height: 10px;
@@ -100,22 +93,32 @@ a.mint:hover, a.mint:active {
 }
 /* END mint link */
 
-/* 
-p:hover {
-  height: 14px;
-  background-color: #ff0072;
-  color: white;
-} */
+.text {
+  height: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: black;
+}
 
 .number {
   color: white;
 }
 
-div.footer {
-  width: 80%;
-  height: 2.5rem;
-  position: absolute;
+/* footer */
+.footer {
+  width: 100%;
+  position: fixed;
+  left: 0;
   bottom: 0;
-  align-content: center;
-  padding: 0px 0px 18px 0px;
+  padding: 25px 0px 20px 0px;
+  background-color: #00ffcc;
+  text-align: center;
 }
+
+p.footer {
+  height: 10px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  color: black;
+}
+/* END footer */
