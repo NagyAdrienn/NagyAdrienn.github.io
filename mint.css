@@ -3,10 +3,11 @@ body {
   margin: 0;
 }
 
-div {
+div.main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 /* blueBOX */

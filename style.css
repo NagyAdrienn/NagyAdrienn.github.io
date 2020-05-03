@@ -3,10 +3,11 @@ body {
   margin: 0;
 }
 
-div {
+div.main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  margin-bottom: 100px;
 }
 
 /* blueBOX */
@@ -93,6 +94,7 @@ a.mint:hover, a.mint:active {
 }
 /* END mint link */
 
+/* p */
 .text {
   height: 10px;
   font-family: 'Roboto Mono', monospace;
@@ -103,6 +105,7 @@ a.mint:hover, a.mint:active {
 .number {
   color: white;
 }
+/* END p */
 
 /* footer */
 .footer {
