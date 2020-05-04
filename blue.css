@@ -7,7 +7,7 @@ div.main {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-bottom: 100px;
+  margin: 10px 20px 90px 20px;
 }
 
 /* blueBOX */
