@@ -5,109 +5,149 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+
+     <!-- 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+     -->
+
     <script async src="script.js"></script>
+    <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     <title>Adrienn Nagy</title>
 </head>
 
 <body>
-    <a class="blueBOX" href="blue.html">blue</a>
-    <a class="mintBOX" href="mint.html">mint</a>
-    <a class="orgonaBOX" href="index.html">orgona</a>
+    <a href="index.html">
+        <div class="header">
+            <img class="logo" src="Adrienn_Nagy_logo_BW2.png" alt="logo"/>
+        </div>
+    </a>
 
-    <div class="main">
-        <p class="text">
-            <span class="number">1 </span>
-            <span class="onmouseoverChangeColor" onmouseover="style.color='#00ffcc'" onmouseout="style.color='black'">
-                <strong>HELLO WORLD</strong>
-            </span>
-        </p>
-        <p class="text">
-            <span class="number">2 </span>
-            My name is Adrienn Nagy.
-        </p>
-        <p class="text">
-            <span class="number">3 </span>
-            I am a 
-            <span class="typer \" id="main"
-                data-words="Digital Graphic Designer.,UI/UX Designer.,coffee lover." data-delay="100"
-                data-deleteDelay="1000" data-colors="#00ffcc">
-            </span>
-            <span style="color:#00ffcc" class="cursor" data-owner="main"></span>
-        </p>
-        <p class="text">
-            <span class="number">4 </span>
-            EAT. SLEEP. 
-            <span class="typer \" id="main" data-words="DESIGN.,CODE." data-delay="100"
-                data-deleteDelay="1000" data-colors="#00ffcc">
-            </span>
-            <span style="color:#00ffcc;" class="cursor" data-owner="main"></span>
-            REPEAT.
-        </p>
-        <p class="text">
-            <span class="number">5 </span>
-        </p>
-        <p class="text">
-            <span class="number">6 </span>
-            <span class="onmouseoverChangeColor" onmouseover="style.color='#00ffcc'" onmouseout="style.color='black'">
-                <strong>PORTFOLIO</strong>
-            </span>
-        </p>
-        <p class="text">
-            <span class="number">7 </span>
-            <a class="mint" href="https://www.linkedin.com/in/adriennnagy062091/" target="_blank">LinkedIn</a>
-        </p>
-        <p class="text">
-            <span class="number">8 </span>
-            <a class="mint" href="https://www.behance.net/nagyadrienn" target="_blank">Behance</a>
-        </p>
-        <p class="text">
-            <span class="number">9 </span>
-            <a class="mint" href="https://codepen.io/nagyadrienn" target="_blank">CodePen</a>
-        </p>
-        <p class="text">
-            <span class="number">10 </span>
-        </p>
-        <p class="text">
-            <span class="number">11 </span>
-            <span class="onmouseoverChangeColor" onmouseover="style.color='#00ffcc'" onmouseout="style.color='black'">
-                <strong>LET'S CONNECT!</strong>
-            </span>
-        </p>
-        <p class="text">
-            <span class="number">12 </span>
-            I am currently graduating at Budapest Metropolitan University and actively seeking full time UI/UX Design opportunities!
-        </p>
-        <p class="text">
-            <span class="number">13 </span>
-            Say hello: <a class="mint" href="mailto:adri.nagy.91@gmail.com">adri.nagy.91@gmail.com</a>
-        </p>
-        <p class="text">
-            <span class="number">14</span>
-        </p>
-        <p class="text">
-            <span class="number">15 </span>
-            <span class="onmouseoverChangeColor" onmouseover="style.color='#00ffcc'" onmouseout="style.color='black'">
-                <strong>RANDOM FACTS ABOUT ME</strong>
-            </span>
-        </p>
-        <p class="text">
-            <span class="number">16 </span>
-            I am a huge fan of Stargate, Star Trek and The Office series.
-        </p>
-        <p class="text">
-            <span class="number">17 </span>
-            I love to play with the Tomb Raider series.
-        </p>
-        <p class="text">
-            <span class="number">18 </span>
-            I like the Scandinavian and the Egyptian cultures.
-        </p>
-        <p class="text">
-            <span class="number">19 </span>
-            I had the chance to listen to the Dalai Lama’s lecture in Oslo, 2014.
-        </p>
+    <div class="row">
+
+        <!-- 
+        <div class="col-12 col-s-12 menu">
+            <ul class="holo-font-ul">
+                <li class="holo-font-firstmenu">HELLO</li>
+                <li class="holo-font-firstmenu">PORTFOLIO</li>
+                <li class="holo-font-firstmenu">RESUME</li>
+                <li class="holo-font-firstmenu">CONNECT</li>
+            </ul>
+        </div>
+        -->
+
+        <div class="col-12 col-s-12">
+        </div>
+
+        <div class="col-12 col-s-12 menu">
+            <div class="float-center">
+                <ul class="child">
+                    <li>
+                        <a class="holo-font" href="#HELLO">HELLO</a>
+                    </li>
+                    <li>
+                        <a class="holo-font" href="#PORTFOLIO">PORTFOLIO</a>
+                    </li>
+                    <li>
+                        <a class="holo-font" href="resume/Adrienn Nagy CV 2020.pdf" download="Adrienn Nagy CV 2020">RESUME</a>
+                    </li>
+                    <li>
+                        <a class="holo-font" href="#CONNECT">CONNECT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-12 col-s-12">
+        </div>
+
+        <div class="col-1 col-s-1">
+        </div>
+
+    <div class="col-10 col-s-10">
+        <div class="main">
+            <a class="holo-font" name="HELLO">HELLO WORLD</a>
+            <p class="text">
+                <span class="number">1 </span>
+                My name is Adrienn Nagy.
+            </p>
+            <p class="text">
+                <span class="number">2 </span>
+                I am a 
+                <span class="typer \" id="main"
+                    data-words="Digital Graphic Designer.,UI/UX Designer.,coffee lover." data-delay="100"
+                    data-deleteDelay="800" data-colors="#000000">
+                </span>
+                <span style="color:#000000" class="cursor" data-owner="main"></span>
+            </p>
+            <p class="text">
+                <span class="number">3 
+                </span>
+                I am currently graduating at Budapest Metropolitan University and actively seeking full time UI/UX Design opportunities!
+                </span>
+            </p>
+<!--
+            <p class="text">
+                <span class="number"> </span>
+                <a class="toggle" href="#more">Click to read more!</a>
+            </p>
+            <div class="toggle-content" id="more">
+                <span style="font-family: Roboto; font-size: 14px; font-weight: bold; color: white;">4 </span>
+                jokes on you, lol
+            </div>
+-->
+            <div class="col-12 col-s-12">
+            </div>
+
+            <a class="holo-font" name="PORTFOLIO">PORTFOLIO</a>
+
+            <p class="text">
+                <span class="number">4 </span>
+                <a class="portfolio" href="https://www.linkedin.com/in/adriennnagy062091/" target="_blank">LinkedIn</a>
+            </p>
+            <p class="text">
+                <span class="number">5 </span>
+                <a class="portfolio" href="https://www.behance.net/nagyadrienn" target="_blank">Behance</a>
+            </p>
+            <p class="text">
+                <span class="number">6 </span>
+                <a class="portfolio" href="https://codepen.io/nagyadrienn" target="_blank">CodePen</a>
+            </p>
+
+            <div class="col-12 col-s-12">
+            </div>
+
+            <a class="holo-font" name="CONNECT">CONNECT</a>
+
+            <p class="text">
+                <span class="number">7 </span>
+                Say hello:
+            </p>
+
+            <p class="text">
+                <span class="number">8 </span>
+                <a class="portfolio" href="mailto:adri.nagy.91@gmail.com">adri.nagy.91@gmail.com</a>
+            </p>
+
+            <div class="col-12 col-s-12">
+            </div>
+
+            <!-- scroll down
+            <div class="scroll-down-cue">
+                <a href="#introduction">
+                    <img class="animated infinite bounce" src="img/down.png" alt="Learn More">
+                </a>
+            </div>
+           END scroll down -->
+        </div>
+    </div>
+
+    <div class="col-1 col-s-1">
+    </div>
+
+    <div class="col-12 col-s-12">
+    </div>
+    <div class="col-12 col-s-12">
     </div>
 
     <div class="footer">
