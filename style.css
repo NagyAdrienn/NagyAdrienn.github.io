@@ -172,7 +172,7 @@ END bouncing arrow */
   left: 0;
   bottom: 0;
   padding: 20px 0px 20px 0px;
-  background-image: url(img/holo_background.jpg);
+  background-image: url(img/holo_footer.jpg);
   background-repeat: no-repeat, repeat;
   text-align: center;
 }
