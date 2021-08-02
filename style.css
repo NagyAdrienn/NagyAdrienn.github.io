@@ -165,6 +165,15 @@ div.toggle-content {
 }
 END bouncing arrow */
 
+/* button */
+.button {
+  bottom: 0;
+  padding: 20px 0px 20px 0px;
+  background-image: url(img/holo_footer.jpg);
+  background-repeat: no-repeat, repeat;
+}
+/* button END */
+
 /* footer */
 .footer {
   width: 100%;
