@@ -1,8 +1,8 @@
 var target = document.getElementById('target');
 var titles = [
-    'Title 1',
-    'Title 2',
-    'Title 3',
+    'I am a huge fan of Stargate, Star Trek and The Office series.',
+    'I love to play with the Tomb Raider series.',
+    'In 1999, I saw a total solar eclipse in Hungary.',
     'Title 4',
     'Title 5'
 ];
