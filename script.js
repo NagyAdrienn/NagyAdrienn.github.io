@@ -2,9 +2,9 @@ var target = document.getElementById('target');
 var titles = [
     'I am a huge fan of Stargate, Star Trek and The Office series.',
     'I love to play with the Tomb Raider series.',
-    'In 1999, I saw a total solar eclipse in Hungary.',
-    'Title 4',
-    'Title 5'
+    'In 1999, I saw the total solar eclipse in Hungary.',
+    'Altogether I completed 185 subjects = 610 credits in higher education institutions.',
+    'So far, I have lived in 3 countries (Hungary, Denmark, Norway).'
 ];
 
 function newTitle () {
