@@ -4,7 +4,7 @@ var titles = [
     'I love to play with the Tomb Raider series.',
     'In 1999, I saw the total solar eclipse in Hungary.',
     'Altogether I completed 185 subjects = 610 credits in higher education institutions.',
-    'So far, I have lived in 3 countries (Hungary, Denmark, Norway).'
+    'So far, I have lived in 3 countries (Hungary, Denmark, Norway), in 5 different places (Cegléd, Aarhus, Budapest, Oslo, Mánfa).'
 ];
 
 function newTitle () {
