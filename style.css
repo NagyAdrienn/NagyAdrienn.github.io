@@ -36,7 +36,7 @@ img.logo {
 }
 
 .header {
-  background-image: url(img/background_mint_gradient-90.jpg);
+  background-image: url(img/backgrounds/background_mint_gradient-90.jpg);
   background-repeat: no-repeat, repeat;
   height: 240px;
   display: flex;
@@ -81,7 +81,7 @@ END first menu */
 }
 
 a.holo-font {
-  background: url("img/background_mint_gradient-90.jpg") center;
+  background: url("img/backgrounds/background_mint_gradient-90.jpg") center;
   background-size: initial;
   background-clip: text;
   -webkit-background-clip: text;
@@ -91,7 +91,7 @@ a.holo-font {
 }
 
 .menu a:hover {
-  background: url("img/background_mint-green.jpg") center;
+  background: url("img/backgrounds/background_mint-green.jpg") center;
   background-size: initial;
   color: white;
   text-decoration: none;
@@ -106,7 +106,7 @@ a.holo-font {
 .holo-font-ul {
   font: bolder 20px 'Roboto', sans-serif;
   margin: 0;
-  background: url("img/background_mint_gradient-90.jpg") center;
+  background: url("img/backgrounds/background_mint_gradient-90.jpg") center;
   background-size: cover;
   width: 75vw;
   background-clip: text;
@@ -183,7 +183,7 @@ END bouncing arrow */
   left: 0;
   bottom: 0;
   padding: 20px 0px 20px 0px;
-  background-image: url(img/background_mint_gradient-90.jpg);
+  background-image: url(img/backgrounds/background_mint_gradient-90.jpg);
   background-repeat: no-repeat, repeat;
   text-align: center;
 }
