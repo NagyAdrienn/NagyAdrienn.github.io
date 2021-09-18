@@ -1,3 +1,4 @@
+/* basics */
 * {
   box-sizing: border-box;
 }
@@ -26,6 +27,7 @@ html {
 body {
   background: #ffffff;
 }
+/* END basics */
 
 /* header*/
 img.logo {
